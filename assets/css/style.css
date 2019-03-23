@@ -1,0 +1,211 @@
+body {
+    background-color:#ffffff;
+    font:Georgia, "Times New Roman", Times, serif;
+    color:#333333;
+    margin: auto;
+    background-image: url(../images/footer_lodyas/footer_lodyas.png)
+}
+
+header {
+    background-color:#ffffff;
+    height: 60px;
+    border-color: #cccccc;
+    font: 'Georgia', Times, "Times New Roman", serif;
+}
+
+.clearfix {
+    overflow: auto;
+  }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.form-container {
+    max-width: 80%;
+}
+
+h1 {
+    color:#eee;
+    font-size: 24px;
+    width: 170px;
+    text-align: center;
+    float: left; 
+}
+
+#name {
+    background-color:#4AAAA5;
+    height: 60px;
+    width: 175px;
+    display: inline-block;
+    margin-left: 14%;
+}
+
+.nav {
+    position: relative;
+    display: inline-block;
+    float: right;
+    top: -40px;
+    right: 190px;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 100%;
+    margin-right: 5px;
+}  
+
+.details {
+    max-width: 960px;
+    margin: auto;
+    background: white;
+    margin-top: 30px;
+    border-color: #dddddd;
+    border: solid 1px #4AAAA5; 
+    margin-bottom: 100px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #4AAAA5;
+    margin-left: 20px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+#bioimage {
+    float: left;
+    padding: 20px;
+    max-width: 25%;
+    height: auto;
+}
+
+.navlink {
+    color:grey;
+    padding-right: 10px;
+    border-right: solid 1px grey;
+    text-decoration:none;
+    border-color: grey;
+}
+
+hr {
+    max-width: 920px;
+    margin-bottom: 15px;   
+}
+
+p {
+    max-width: 900px;
+    color: #777777;
+    text-align: justify;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #666;
+    padding: 10px;
+    height: 50px;
+    font:Georgia,"Times New Roman",Times,serif;
+    margin: auto;
+    border-top: solid 10px #4AAAA5;
+    color: white
+}
+
+.smallinput {
+    width:900px;
+    padding: 3px;
+    margin-left: 20px;
+}
+
+.largeinput {
+    border: 1px solid #dddddd;
+    width: 900px;
+    height: 150px;
+    padding: 3px;
+    margin-left: 20px;
+}
+
+.submit_button {
+    background-color: #4AAAA5;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    margin-left: 20px;
+ }
+
+.images {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 150px;
+    margin-right: 27px;
+    margin-bottom: 40px;
+}
+
+.portfolioimage {
+    height: 200px;
+    width: 200px;
+    padding-left: 50px;
+}
+
+.box {
+    position: relative;
+    bottom: 60px;
+    background: #4AAAA5;
+    color: white;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 980px) {
+    .details {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+  
+    #mybio,
+    #form,
+    #portfolio {
+      width: 100%;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .details {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+  
+    #mybio,
+    #form,
+    #portfolio {
+      width: 100%;
+    }
+  }
+  
+  /* Additional Screen Sizes */
+
+  @media screen and (max-width: 480px) {
+    .details {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+  
+    #mybio,
+    #form,
+    #porfolio {
+      width: 100%;
+    }
+  }
